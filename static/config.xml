@@ -1,0 +1,66 @@
+<BaseConfiguration xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+		<MaintenanceText></MaintenanceText>
+		<BuildNumber>0</BuildNumber>
+		<BuildName>SRO-trunk</BuildName>
+		<ServerAddress>localhost:7000</ServerAddress>
+		<RemoteClientBaseConfigPath>http://YOUR_DOMAIN/SRO/configs/SRO_23.3/SteamWindows/config.xml</RemoteClientBaseConfigPath>
+		<FallbackPorts>
+			<Port>65432</Port>
+		</FallbackPorts>
+		<AccountServiceAddress>https://YOUR_DOMAIN/AccountSystem/</AccountServiceAddress>
+		<AccountServiceAppKey>E4F9BE8D-E9BA-48EE-A89C-C0030417DCCF</AccountServiceAppKey>
+		<MatchmakingServiceAddress>http://YOUR_DOMAIN/Matchmaking/</MatchmakingServiceAddress>
+		<ChatAndFriendServiceAddress>http://YOUR_DOMAIN/ChatAndFriends/</ChatAndFriendServiceAddress>
+		<PollingInterval>2</PollingInterval>
+		<HttpTimeout>30</HttpTimeout>
+		<DebugInfoStorageAddress>http://cliffserver10.cliffhanger.local:5984</DebugInfoStorageAddress>
+		<DebugInfoStorageDatabaseName>sro_memoryusage</DebugInfoStorageDatabaseName>
+		<BasePath>levels/</BasePath>
+		<GamingPlatform>SteamWindows</GamingPlatform>
+		<MouseSensitivity>0.1</MouseSensitivity>
+		<ZoomAngularLimit>30</ZoomAngularLimit>
+		<RotationAngularLimit>30</RotationAngularLimit>
+		<SnapSpeedThreshhold>0.9</SnapSpeedThreshhold>
+		<SnapThreshholdTimeout>0.1</SnapThreshholdTimeout>
+		<TapThreshhold>0.3</TapThreshhold>
+		<TapMaxInchPerSecond>0.5</TapMaxInchPerSecond>
+		<AgentBundleURL>levels\\sphere.unity3d</AgentBundleURL>
+		<DebugMode>true</DebugMode>
+		<MassTestingEnabled>false</MassTestingEnabled>
+		<CameraSnapAngles>
+			<CameraSnapAngle>
+				<Angle>125</Angle>
+				<PreferredPlayerIndex>1</PreferredPlayerIndex>
+			</CameraSnapAngle>
+			<CameraSnapAngle>
+				<Angle>305</Angle>
+				<PreferredPlayerIndex>0</PreferredPlayerIndex>
+			</CameraSnapAngle>		
+		</CameraSnapAngles>
+		<ScreenSleepTimeout>600</ScreenSleepTimeout>
+		<TurnTimeInSeconds>30</TurnTimeInSeconds>
+		<Version>23.3.28073</Version>
+		<AgentAoEBlendColor r="247" g="91" b="18" a="127" />
+		<UI>
+			<ManualHeight>1080</ManualHeight>
+			<MinHeight>480</MinHeight>
+			<MaxHeight>1536</MaxHeight>
+			<Scaling>FixedSize</Scaling>
+			<FriendColor r="25" g="110" b="150" />
+			<FoeColor r="230" g="75" b="60" />
+			<MouseEnterAlpha>0.5</MouseEnterAlpha>
+			<MouseLeaveAlpha>0.0</MouseLeaveAlpha>
+			<UseNewLoadout>true</UseNewLoadout>
+			<ButtonDisabledColor r="120" g="120" b="120" />
+			<ButtonYesColor r="110" g="150" b="160" />
+			<ButtonNoColor r="120" g="120" b="120" />
+			<TextDisabledColor r="65" g="65" b="65" />
+			<TextEnabledColor r="255" g="255" b="255" />
+			<PlayerBarGrey r="96" g="96" b="96" />
+		</UI>
+		<AutoLogin>true</AutoLogin>  
+		<DefaultLanguage>English</DefaultLanguage>
+		<PhotonProxyEndPoint>fra-caf01.cliffhanger-productions.com:4530</PhotonProxyEndPoint>
+		<PhotonProxyApplicationName>FRA-ALL-RABBIT01</PhotonProxyApplicationName>
+		<PhotonProxyUpdateInterval>0.1</PhotonProxyUpdateInterval>
+	</BaseConfiguration>
